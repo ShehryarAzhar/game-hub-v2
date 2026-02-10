@@ -32,7 +32,6 @@ const useGames = (gameQuery: GameQuery) =>
           },
         })
         .then((res) => res.data),
-    staleTime: 5 * 60 * 1000, // 5m
   });
 
 export default useGames;
